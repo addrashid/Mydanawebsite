@@ -1265,8 +1265,8 @@ font-size:22px;
 ==========================================================*/
 .page-title{
 	position: relative;
-	min-height: 220px;
-	margin-bottom: 120px;
+	min-height: 170px;
+	margin-bottom: 10px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1278,7 +1278,6 @@ font-size:22px;
 	background-image: url('images/blog-list.jpg');
 }
 .page-title.background-campaign{
-	background-image: url('images/campaign.jpg');
 }
 .page-title.background-cart{
 	background-image: url('images/cart.jpg');
@@ -1290,7 +1289,7 @@ font-size:22px;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0,0,0,0.3);
+	/*background: rgba(0,0,0,0.3);*/
 }
 .page-title .container{
 	position: absolute;
@@ -1299,11 +1298,25 @@ font-size:22px;
 	top: 50%;
 	transform: translateY(-50%);
 }
-.page-title h1{
-	font-size: 26px;
+.page-title .container .main-author .main-author-icon img{
+	width:50px;
+	height:50px;
+}
+.page-title h2{
+	font-size: 36px;
 	font-weight: 500;
-	color: #fff;
+	color: #000;
 	margin-bottom: 12px;
+	margin-top: 0px;
+}
+.page-title p{
+	font-size: 16px;
+	color: #626369;
+	margin-bottom: 12px;
+}
+
+.campaign-detail .campaign-box .process{
+margin-top: 20px;
 }
 .page-title .banner-description{
 	color: #fff;
@@ -2655,7 +2668,7 @@ form .create-account input[type="checkbox"]{
 	max-height: 95px !important;
 }
 .campaign-detail .campaign-author{
-	margin-top: 40px;
+	margin-top: 0px;
 }
 .campaign-detail .process-info span{
 	margin-right: 110px !important;
@@ -2665,6 +2678,30 @@ form .create-account input[type="checkbox"]{
 .campaign-detail .process .process-info{
 	margin-bottom: 35px;
 }
+/*main campaign details*/
+.campaign-detail .process .main-process-info{
+	margin-bottom: 0px;
+}
+.campaign-detail .process .main-process-info .process-funded{
+ font-size:24px;
+ font-weight: 500;
+ color: #F04868;
+}
+.campaign-detail .process .main-process-info .process-pledgedescription{
+ font-size:14px;
+ margin-bottom:20px;
+ #626369;
+}
+.campaign-detail .process .main-process-info .process-numtotal{
+ font-size:24px;
+ color: #F04868;
+}
+.campaign-detail .process .main-process-info .process-description{
+ font-size:14px;
+ margin-bottom:30px;
+ #626369;
+}
+/*end camppaign*/
 .campaign-detail .process .process-info  div{
 	font-size: 14px !important;
 }
@@ -2738,7 +2775,7 @@ form .create-account input[type="checkbox"]{
 	margin-bottom: 0px;
 }
 .campaign-detail .share{
-	margin-top: 46px;
+	margin-top: 20px;
 }
 .campaign-detail .share p{
 	color: #555555;
@@ -2871,12 +2908,27 @@ form .create-account input[type="checkbox"]{
 .campaign-history{
 	margin-top: 71px;
 }
-.campaign-history .tabs-controls{
-	border-bottom: 1px solid #ededed;
+.main-navigation-details .main-nav, .main-navigation-details .buttonshare{
 	margin-bottom: 35px;
+	border-bottom: 1px solid #ededed;
+}
+.sharing-path{
+	margin-bottom: 8px
+}
+.btn-back{
+	background-color: #F04868;
+    color: #FFFFFF;
+	width: 160px;
+}
+.btn-save{
+   display: inline-block;
+   margin-left:10px;
+   color: #626369;
+
 }
 .campaign-history .tabs-controls li.active{
-	border-bottom: 1px solid #73b941;
+	border-bottom: 1px solid #F04868;
+	font-color: #F04868;
 }
 .campaign-history .tabs-controls li{
 	list-style: none;
@@ -2890,6 +2942,8 @@ form .create-account input[type="checkbox"]{
 .campaign-history .tabs-controls li a{
 	font-weight: 500;
 	font-size: 16px;
+	color: #626369;
+	text-decoration: none;
 }
 .campaign-history .campaign-content p,
 .campaign-history .campaign-content img{
