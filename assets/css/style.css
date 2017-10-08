@@ -2019,6 +2019,162 @@ display: inline-block;
 /*==========================================================
 	13A. PAYMENT
 ==========================================================*/
+.card-information{
+    margin-bottom:40px;
+}
+.payment-title h2{
+	font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.payment-description{
+	font-size: 16px;
+    line-height: 24px;
+}
+.card-info-title {
+	font-weight: bold;
+    font-size: 18px;
+    float: left;
+    margin-bottom: 20px;
+    width: 230px;
+}
+.info-secure{
+	display: inline-block;
+    vertical-align: left;
+    margin-left: 10px;
+	margin-left: 30px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.label-field{
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+    font-size: 13px;
+    line-height: 1.3;
+    vertical-align: middle;
+    color: #020621;
+}
+.card-number{
+	margin-bottom:15px;
+}
+input[type=card-number]{
+    border: 1px solid #ededed;
+    padding: 8px 15px;
+    font-size: 12px;
+	width:78%;
+    color: #222222;
+    font-style: italic;
+    border-radius: 0;
+}
+ul.card_cardtype{
+	margin: 0px;
+    margin-left: 5px;
+    height: 29px;
+    line-height: 29px;
+    display: inline-block;
+
+}
+ul.card_cardtype li.js-visa{
+	background: url(../images/payment/visa.png) no-repeat 0 0;
+    height: 29px;
+    line-height: 29px;
+    width: 46px;
+    display: inline-block;
+    margin: 0px;
+    text-indent: -9999em;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -ms-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+ul.card_cardtype li.js-mastercard{
+	background: url(../images/payment/master.png) no-repeat 0 0;
+    height: 29px;
+    line-height: 29px;
+    width: 46px;
+    display: inline-block;
+    margin: 0px;
+    text-indent: -9999em;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -ms-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+ul.card_cardtype li.js-amex{
+	background: url(../images/payment/amex.png) no-repeat 0 0;
+    height: 29px;
+    line-height: 29px;
+    width: 46px;
+    display: inline-block;
+    margin: 0px;
+    text-indent: -9999em;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -ms-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.card-name{
+	margin-bottom:15px;
+}
+input[type=card-name]{
+    border: 1px solid #ededed;
+    padding: 8px 15px;
+    font-size: 12px;
+	width:100%;
+    color: #222222;
+    font-style: italic;
+    border-radius: 0;
+}
+.payment_expiration{
+	width: 160px;
+	font-weight: bold;
+}
+.payment_expiration{
+	width: 185px;
+	font-weight: bold;
+	display: inline-block;
+}
+#exp_month{
+	width: 60px;
+	height: 30px;
+	margin-right: 10px;
+}
+#exp_year{
+	width: 90px;
+	height: 30px;
+	margin-right: 20px;
+}
+select#exp_month, select#exp_year{
+	background: url(../images/payment/dropdown.png) no-repeat right center;
+}
+input[type=payment-cvv]{
+    border: 1px solid #ededed;
+    padding: 8px 8px;
+    font-size: 12px;
+	width: 90px;
+    color: #222222;
+	height: 30px;
+    border-radius: 0;
+}
 
 
 

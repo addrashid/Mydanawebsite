@@ -61,8 +61,79 @@
 		<main id="main" class="site-main">
 			<div class="container">
 			<div class="col-md-8 col-xs-8 payment-detail">
-			Payment information
-			Your payment method will not be charged at this time. If the project is successfully funded, your payment method will be charged £10.00 when the project ends.
+			<h2 class="payment-title">Payment information</h2>
+			<p class="payment-description">Your payment method will not be charged at this time. If the project is successfully funded, your payment method will be charged £10.00 when the project ends.</p>
+			<div class="card-information">
+			<h2 class="card-info-title">Add card information</h2>
+			<p class="info-secure"><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;Secure</p>
+			<p class="info-secure"><i>Visa, MasterCard, American Express, Discover, or JCB</i></p>
+			</div>
+			<div class="card-number">
+			<p class="label-field">Card Number</p>
+			<input type="card-number" value="" name="" placeholder="Name">
+			<ul class="card_cardtype">
+			<li class="js-visa">
+			Visa
+			</li>
+			<li class="js-mastercard">
+			Mastercard
+			</li>
+			<li class="js-amex">
+			Amex
+			</li>
+			</ul>
+			</div>
+			<div class="card-name">
+			<p class="label-field">Card Name</p>
+			<input type="card-name" value="" name="" placeholder="Name">
+			</div>
+			<div class="">
+			<p class="payment_expiration">Expiration</p>
+			<p class="payment_expiration">Security</p>
+			</div>
+			<div class="">
+			<select name="exp_month" id="exp_month" autocomplete="cc-exp-month" data-stripe="exp_month" required="required" aria-required="true" class="select"><option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option selected="selected" value="11">11</option>
+			<option value="12">12</option>
+			</select>
+			<select name="exp_year" id="exp_year" autocomplete="cc-exp-year" data-stripe="exp_year" required="required" aria-required="true" class="select"><option value="2017">2017</option>
+			<option selected="selected" value="2018">2018</option>
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+			<option value="2021">2021</option>
+			<option value="2022">2022</option>
+			<option value="2023">2023</option>
+			<option value="2024">2024</option>
+			<option value="2025">2025</option>
+			<option value="2026">2026</option>
+			<option value="2027">2027</option>
+			<option value="2028">2028</option>
+			<option value="2029">2029</option>
+			<option value="2030">2030</option>
+			<option value="2031">2031</option>
+			<option value="2032">2032</option>
+			<option value="2033">2033</option>
+			<option value="2034">2034</option>
+			<option value="2035">2035</option>
+			<option value="2036">2036</option>
+			<option value="2037">2037</option>
+			</select>
+			<input type="payment-cvv" value="" name="" placeholder="Code">
+			</div>
+			<div class="inline clearfix">
+			<input type="checkbox" value="1" class="checkbox-signup">
+			<p class="signup-letter">Remember this card for future pledges</p>
+			</div>
+			<a href="#" class="btn-primary">Pledge</a>
 			</div>
 			<div class="col-md-4 col-xs-4 payment-information">
 			</div>
