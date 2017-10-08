@@ -1272,7 +1272,7 @@ font-size:22px;
 	background-repeat: no-repeat;
 }
 .page-title.background-page{
-	background-image: url('images/banner-img.jpg');
+	background-image: url('../images/banner-login.jpg');
 }
 .page-title.background-blog{
 	background-image: url('images/blog-list.jpg');
@@ -1978,21 +1978,51 @@ form .align-right{
 	height: 46px;
 }
 .form-login .btn-primary{
-	float: left;
+	width:100%;
 }
 .form-login .inline{
 	margin-top: 10px;
 }
 .form-login .inline p{
-	float: right;
 	display: inline-block;
 	line-height: 46px;
 	color: #222222;
+}
+.box-login{
+ background-color: #fcfbf9;
+}
+.box-signup{
+max-width: 400px;
+margin: auto;
+background-color:#fff;
+padding:20px;
+}
+.site-signup{
+ background-color: #fcfbf9;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+input.checkbox-signup {
+  width: 20px;
+  
+}
+.form-login .inline p.signup-letter{
+font-size:14px;
+width: 80%;
+line-height: 19px;
+display: inline-block;
 }
 .form-login .inline p a{
 	display: inline-block;
 	text-decoration: underline;
 }
+/*==========================================================
+	13A. PAYMENT
+==========================================================*/
+
+
+
+
 /*==========================================================
 	14.SHOP CART
 ==========================================================*/
