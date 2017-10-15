@@ -1,4 +1,7 @@
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 1200px){
+	.hidden-mobile{
+	display:none;
+	}
 	.site-header .login,
 	.site-header .search-icon,
 	.site-header .main-menu{
@@ -67,13 +70,14 @@
 		top: 80px;
 		left: -240px;
 		margin-left: 0;
-		border-top: 1px solid #73b941;
+		border-top: 1px solid #000;
 		width: 240px;
 		transition: all 0.4s;
 		z-index: 999999;
 	}
 	.main-menu.open ul{
 		left: 0;
+		width:100%;
 	}
 	body.menu-open:before{
 		position: fixed;
@@ -95,7 +99,7 @@
 		display: block;
 		margin-left: 0;
 		line-height: normal;
-		border-bottom: 1px dashed #ccc;
+		border-bottom: 1px dashed #000;
 	}
 	.site-header .main-menu ul li:last-child{
 		border-bottom: 0;
@@ -343,6 +347,46 @@
 	}
 }
 @media screen and (max-width: 576px){
+	/*Current*/
+	.current-collection .container h4 {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 25px;
+    text-align: center;
+	}
+	.process .process-info .process-funded, .process .process-info .process-funded-right {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    letter-spacing: normal;
+	}
+	.process .process-info .process-funded-right> span > h7, .process .process-info .process-funded> span > h7 {
+    color: #fff;
+    font-size: 24px !important;
+    font-weight: 100 !important;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	}
+	/*end current*/
+	.hidden-dekstop{
+	display:none;
+	}
+	.footer-menu-item h4{
+	font-size: 28px;
+    line-height: 40px;
+	text-align: left;
+	}
+	.footer-menu-item-right h3 {
+	font-size: 17px;
+	text-align: left;
+	}
+	.footer-menu-item-right h2 {
+    color: #fff;
+    font-size: 17px;
+	}
+	.footer-submenu-item h3 > a {
+    color: #fff;
+    font-size: 15px;
+}
 	.site-header .login a{
 		font-size: 0;
 		padding: 0 14px;
