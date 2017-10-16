@@ -1343,7 +1343,7 @@ margin-top: 20px;
 .page-title .breadcrumbs li a{
 	list-style: none;
 	display: inline-block;
-	color: #fff;
+	color: #000;
 }
 .page-title .breadcrumbs li span{
 	margin: 0 7px;
@@ -1452,11 +1452,28 @@ margin-top: 20px;
 	background-color: #f5f6f6;
 	padding: 27px 25px;
 }
+
 .post-title,
 .product-title{
 	margin-bottom: 11px;
 	max-height: 40px;
 	overflow: hidden;
+}
+.post-title,
+.product-title h3.post-title{
+	font-size: 18px;
+	color: #222222;
+	font-weight: bold;
+	
+}
+a.news-detail:visited {
+	color:#222222;
+	text-decoration:none;
+	
+}
+a.news-detail:link, a.news-detail:hover{
+	color:#F04868;
+	text-decoration:none;
 }
 .post-meta li,
 .post-meta li a,
@@ -1501,7 +1518,7 @@ margin-top: 20px;
 	letter-spacing: normal;
 }
 .page-navigation span{
-	background-color: #79bc42;
+	background-color: #F04868;
 	color: #fff;
 }
 .page-navigation a:last-child{
