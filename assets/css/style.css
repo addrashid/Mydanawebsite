@@ -3634,6 +3634,9 @@ form .create-account input[type="checkbox"]{
 .list-faq li .faq-desc p{
 	margin-bottom: 10px;
 }
+.post-title a{
+	color:#222222;
+}
 /*==========================================================
 	21. Account
 ==========================================================*/
@@ -3652,13 +3655,17 @@ form .create-account input[type="checkbox"]{
 .account-content .account-title{
 	font-weight: 500;
 	padding: 15px 30px;
+	color: #222222;
 }
 .account-bar li.active a{
-	background-color: #73b941;
+	background-color: #F04868;
 	color: #fff;
 	border-radius: 3px 3px 3px 3px;
 	-moz-border-radius: 3px 3px 3px 3px;
 	-webkit-border-radius: 3px 3px 3px 3px;
+}
+.author-title h3 a {
+color : #222222;
 }
 .account-content .account-title{
 	background-color: #ededed;
