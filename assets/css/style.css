@@ -1071,6 +1071,36 @@ ul.menu-category li.active:after{
 	color: #fff;
 	font-size: 18px;
 }
+.ion-ios-arrow-back{
+	position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #F04868;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 18px;
+	margin-left: -22px;
+}
+.ion-ios-arrow-forward{
+	position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #F04868;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 18px;
+	margin-left: -15px;
+}
 .slider-controls-top .owl-prev{
 	margin-right: 10px;
 }
